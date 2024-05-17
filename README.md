@@ -155,6 +155,7 @@ Para configurar o H2, adicione as seguintes propriedades ao seu application.prop
 
 # H2 Console
 - **spring.h2.console.enabled=true**
+- **spring.jpa.hibernate.ddl-auto=update**
 - **spring.h2.console.path=/h2-console**
 
 ## Executando o Projeto
