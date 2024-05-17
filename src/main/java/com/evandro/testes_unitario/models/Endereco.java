@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "enderecos")
+@Table(name = "endereco")
 public class Endereco {
 
     @Id
@@ -29,6 +29,4 @@ public class Endereco {
 
     @Column(nullable = false, length = 8)
     private String cep;
-
-
 }
