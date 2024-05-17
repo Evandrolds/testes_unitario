@@ -37,7 +37,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- FLYWADB -->
+		<!-- FLYWAY-DB -->
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
