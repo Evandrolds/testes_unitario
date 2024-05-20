@@ -166,7 +166,7 @@ Para configurar o H2, adicione as seguintes propriedades ao seu application.prop
 
 ## Acessando o H2 Console
 
-Quando usando o H2, você pode acessar o console H2 na URL: http://localhost:8080/h2-console. Use as configurações padrão (jdbc:h2:mem:testdb, sa, sem senha) para conectar.
+Quando usando o H2, você pode acessar o console H2 na URL: http://localhost:sua-porta/h2-console. Use as configurações padrão (jdbc:h2:mem:testdb, sa, sem senha) para conectar.
 Testes
 
 O projeto inclui testes unitários e de integração para garantir a funcionalidade da aplicação. Use o comando mvn test para executá-los.
